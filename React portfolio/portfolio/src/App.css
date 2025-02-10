@@ -1,0 +1,26 @@
+
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.light {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+button {
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
