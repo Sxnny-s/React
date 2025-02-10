@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 
 const Toggle = ({mode,onClick}) => {
     return <button onClick={onClick}>Toggle to {mode}</button>
+    
 }
 
 const LightDarkToggle = () => {
